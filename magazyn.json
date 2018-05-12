@@ -1,0 +1,78 @@
+[
+  {
+    "type": "Book",
+    "key": "1",
+    "identifier": "Book-1",
+    "simpleAttributes": {
+      "Author": "Robert C. Martin",
+      "Title": "Clean Code"
+    }
+  },
+  {
+    "type": "Book",
+    "key": "2",
+    "identifier": "Book-2",
+    "simpleAttributes": {
+      "Author": "Andrew Hunt",
+      "Title": "The Pragmatic Programmer"
+    }
+  },
+  {
+    "type": "Film",
+    "key": "3",
+    "identifier": "Film-1",
+    "simpleAttributes": {
+      "Author": "Lilly Wachowski, Lana Wachowski",
+      "Title": "The Matrix"
+    }
+  },
+  {
+    "type": "Film",
+    "key": "4",
+    "identifier": "Film-2",
+    "simpleAttributes": {
+      "Author": "George Lucas",
+      "Title": "Star Wars"
+    }
+  },
+  {
+    "type": "płyta",
+    "key": "10",
+    "identifier": "plyta10",
+    "simpleAttributes": {
+      "wykonawca": "Maciej Obara Quartet",
+      "tytuł": "Unloved",
+      "gatunek": "jazz",
+      "cena": "60"
+    }
+  },
+  {
+    "type": "płyta",
+    "key": "20",
+    "identifier": "plyta20",
+    "simpleAttributes": {
+      "wykonawca": "Various Artists",
+      "tytuł": "Smooth Jazz Cafe. Volume 17",
+      "gatunek": "jazz",
+      "cena": "50"
+    }
+  },
+  {
+    "type": "komiks",
+    "key": "30",
+    "identifier": "komiks30",
+    "simpleAttributes": {
+      "podtytuł": "batman śmierć w rodzinie",
+      "tytuł": "Batman"
+    }
+  },
+  {
+    "type": "komiks",
+    "key": "40",
+    "identifier": "komiks40",
+    "simpleAttributes": {
+      "podtytuł": "Superman Ostatni Syn Kryptona",
+      "tytuł": "Superman"
+    }
+  }
+]

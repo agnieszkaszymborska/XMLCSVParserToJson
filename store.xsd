@@ -1,0 +1,31 @@
+
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="sklep">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="produkt" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="identyfikator"/>
+                            <xs:element name="parametry">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="tytuł"/>
+                                        <xs:element type="xs:string" name="wykonawca" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="gatunek" minOccurs="0"/>
+                                        <xs:element type="xs:int" name="cena" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="podtytuł" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="typ"/>
+                        <xs:attribute type="xs:int" name="klucz"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
